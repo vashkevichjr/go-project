@@ -3,10 +3,10 @@ version: '3.8'
 services:
   postgres:
     image: postgres:15-alpine
-    container_name: habit_tracker_container
+    container_name: ""
     environment:
-      - POSTGRES_USER=vashkevich
-      - POSTGRES_PASSWORD=atemvad
+      - POSTGRES_USER=""
+      - POSTGRES_PASSWORD=""
       - POSTGRES_DB=habit_tracker_db
     ports:
       - '5432:5432'
